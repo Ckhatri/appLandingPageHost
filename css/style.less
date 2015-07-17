@@ -1,0 +1,160 @@
+@sand: #ECEBE4;
+@main: #EDAFB8;
+@secondary: #B0C4B1;
+@twitter: #55acee;
+@facebook: #3b5998;
+@instagram: #3f729b;
+
+body {
+	header {
+		background-color: @sand;
+		height: 75px;
+		max-width: 100%;
+		max-height: 100%;
+		.header {
+			margin: 0 auto;
+			line-height: 25px;
+			display: inline-block;
+			padding-top: 12px;
+			padding-bottom: 12px;
+
+			img {
+				border-radius: 25px;
+				border-style: solid;
+				border-color: black;
+				border-width: 1px;
+			}
+			p {
+				float: right;
+				text-align: left;
+				font-size: 1.1em;
+			}
+
+			b {
+				color: @secondary;
+			}
+
+			.social {
+				padding-top: 5px;
+			}
+
+			#twitter {
+				color: @twitter;
+			}
+			
+			#facebook {
+				color: @facebook;
+			}
+
+			#instagram {
+				color: @instagram;
+			}
+		}
+
+	}
+
+	#mastHead {
+		height: 100%;
+		width: auto;
+		max-width: 100%;
+		overflow: hidden;
+		min-height: 800px;
+		background: url('../img/blurmountain.png') no-repeat center;
+		background-size: cover;
+		--webkit-backrgound-size: cover;
+		position: relative;
+
+		.mast {
+			position: relative;
+			color: white;
+			height: 100%;
+			.row {
+				height: 100%;
+			}
+
+			.vertical-align {
+			  display: flex;
+			  align-items: center;
+			  flex-direction: row;
+			}
+
+			.description {
+				color: @sand;
+				span {
+					color: @secondary;
+				}
+				padding-right: 50px;
+			}
+
+			img {
+				height: inherit;
+				width: inherit;
+			}
+		}
+	}
+
+	#welcome {
+		background-color: @sand;
+		.topWelcome {
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+		h1 {
+			color: black;
+			span {
+				color: @secondary;
+			}
+		}
+
+		.infobox {
+			background-color: white;
+			height: 40%;
+			border: 10px solid @sand;
+
+			i {
+				color: @main;
+			}
+		}
+	}
+
+	#available {
+		height: 100%;
+		width: auto;
+		max-width: 100%;
+		overflow: hidden;
+		max-height: 500px;
+		background: url('../img/blurblue.jpg') no-repeat center;
+		background-size: cover;
+		--webkit-backrgound-size: cover;
+		position: relative;
+
+		.topWelcome {
+			margin-top: 40px;
+			margin-bottom: 40px;
+			height: 40%;
+		}
+
+		h1 {
+			color: @sand;
+			span {
+				color: @secondary;
+			}
+			font-size: 4em;
+		}
+		p {
+			font-size: 1.5em;
+		}
+		a {
+			color: inherit;
+		}
+		i:hover {
+			color: @secondary;
+			cursor: pointer;
+		}
+
+		.download {
+			margin-top: 100px;
+		}
+
+	}
+}

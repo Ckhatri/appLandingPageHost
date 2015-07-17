@@ -1,0 +1,131 @@
+body header {
+  background-color: #ecebe4;
+  height: 75px;
+  max-width: 100%;
+  max-height: 100%;
+}
+body header .header {
+  margin: 0 auto;
+  line-height: 25px;
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+body header .header img {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+body header .header p {
+  float: right;
+  text-align: left;
+  font-size: 1.1em;
+}
+body header .header b {
+  color: #b0c4b1;
+}
+body header .header .social {
+  padding-top: 5px;
+}
+body header .header #twitter {
+  color: #55acee;
+}
+body header .header #facebook {
+  color: #3b5998;
+}
+body header .header #instagram {
+  color: #3f729b;
+}
+body #mastHead {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  min-height: 800px;
+  background: url('../img/blurmountain.png') no-repeat center;
+  background-size: cover;
+  --webkit-backrgound-size: cover;
+  position: relative;
+}
+body #mastHead .mast {
+  position: relative;
+  color: white;
+  height: 100%;
+}
+body #mastHead .mast .row {
+  height: 100%;
+}
+body #mastHead .mast .vertical-align {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+body #mastHead .mast .description {
+  color: #ecebe4;
+  padding-right: 50px;
+}
+body #mastHead .mast .description span {
+  color: #b0c4b1;
+}
+body #mastHead .mast img {
+  height: inherit;
+  width: inherit;
+}
+body #welcome {
+  background-color: #ecebe4;
+}
+body #welcome .topWelcome {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+body #welcome h1 {
+  color: black;
+}
+body #welcome h1 span {
+  color: #b0c4b1;
+}
+body #welcome .infobox {
+  background-color: white;
+  height: 40%;
+  border: 10px solid #ecebe4;
+}
+body #welcome .infobox i {
+  color: #edafb8;
+}
+body #available {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 500px;
+  background: url('../img/blurblue.jpg') no-repeat center;
+  background-size: cover;
+  --webkit-backrgound-size: cover;
+  position: relative;
+}
+body #available .topWelcome {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 40%;
+}
+body #available h1 {
+  color: #ecebe4;
+  font-size: 4em;
+}
+body #available h1 span {
+  color: #b0c4b1;
+}
+body #available p {
+  font-size: 1.5em;
+}
+body #available a {
+  color: inherit;
+}
+body #available i:hover {
+  color: #b0c4b1;
+  cursor: pointer;
+}
+body #available .download {
+  margin-top: 100px;
+}
