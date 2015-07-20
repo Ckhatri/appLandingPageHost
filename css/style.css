@@ -93,7 +93,7 @@ body #welcome h1 span {
 }
 body #welcome .infobox {
   background-color: white;
-  height: 40%;
+  height: auto;
   border: 10px solid #ecebe4;
 }
 body #welcome .infobox i {
